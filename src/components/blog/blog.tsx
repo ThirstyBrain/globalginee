@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../props/layout/layout'
-import { Box, Paper, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 
 const Blog: React.FC = () => {
   return (

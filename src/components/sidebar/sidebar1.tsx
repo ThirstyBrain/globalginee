@@ -2,31 +2,13 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import CssBaseline from '@mui/material/CssBaseline';
-import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import List from '@mui/material/List';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-
 import { Hidden } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom'
-
 import homeIcon from  '../../assets/icons/icon-home.svg'
-import appointmentIcon from  '../../assets/icons/icon-appointment.svg'
-import patientIcon from '../../assets/icons/icon-patient.svg';
-import receptionIcon from '../../assets/icons/icon-reception.svg';
-import doctorIcon from '../../assets/icons/icon-doctor.svg';
-import paymentIcon from '../../assets/icons/icon-payment.svg';
 import invoiceIcon from '../../assets/icons/icon-invoice.svg';
-import serviceIcon from '../../assets/icons/icon-service.svg';
-import medicineIcon from '../../assets/icons/icon-medicines.svg';
-import compaignIcon from '../../assets/icons/icon-campaign.svg';
-import settingIcon from '../../assets/icons/icon-settings.svg';
-
 
 
 
