@@ -10,22 +10,20 @@ const Ifsc: React.FC = () => {
   const { data, loading, error } = useFetchIfsc(ifscCode);
 
 
+  /// Validation method
   const validateIfscCode = (ifscCodeDetail: string): boolean => {
     const regex = /^[A-Z]{4}0[A-Z0-9]{6}$/;
     return regex.test(ifscCodeDetail);
   };
+
+  // Handle change and validation
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setIfscCode(value);
+    setIsValid(validateIfscCode(value));
+  };
+
   
-
-  // const handleSearch = () => {
-  //   if (validateIfscCode(ifscCode)) {
-  //     setIsValid(true);
-  //     // Trigger the fetch by setting the IFSC code
-  //     setIfscCode(ifscCode);
-  //   } else {
-  //     setIsValid(false);
-  //   }
-  // };
-
   return (
     <Layout>
       {/* Breadcrumbs */}
@@ -54,7 +52,7 @@ const Ifsc: React.FC = () => {
           label="Enter the IFSC Code"
           id="fullWidth"
           value={ifscCode}
-          onChange={(e) => setIfscCode(e.target.value)}
+          onChange={handleChange}
           error={!isValid}
           helperText={!isValid ? "Invalid IFSC Code" : ""}
         />
