@@ -16,15 +16,15 @@ const Ifsc: React.FC = () => {
   };
   
 
-  const handleSearch = () => {
-    if (validateIfscCode(ifscCode)) {
-      setIsValid(true);
-      // Trigger the fetch by setting the IFSC code
-      setIfscCode(ifscCode);
-    } else {
-      setIsValid(false);
-    }
-  };
+  // const handleSearch = () => {
+  //   if (validateIfscCode(ifscCode)) {
+  //     setIsValid(true);
+  //     // Trigger the fetch by setting the IFSC code
+  //     setIfscCode(ifscCode);
+  //   } else {
+  //     setIsValid(false);
+  //   }
+  // };
 
   return (
     <Layout>

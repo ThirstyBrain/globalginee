@@ -14,7 +14,7 @@ const useFetchIfsc = (ifscCode: string) => {
   const [data, setData] = useState<IfscData | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const BASE_URL = 'https://ifsc.razorpay.com/';
+  //const BASE_URL = 'https://ifsc.razorpay.com/';
 
   useEffect(() => {
     if (!ifscCode) return;
