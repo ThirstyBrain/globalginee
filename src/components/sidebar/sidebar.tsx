@@ -1,128 +1,93 @@
-import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { Box, Hidden, Typography } from '@mui/material'
-import homeIcon from  '../../assets/icons/icon-home.svg'
-import appointmentIcon from  '../../assets/icons/icon-appointment.svg'
-import patientIcon from '../../assets/icons/icon-patient.svg';
-import receptionIcon from '../../assets/icons/icon-reception.svg';
-import doctorIcon from '../../assets/icons/icon-doctor.svg';
-import paymentIcon from '../../assets/icons/icon-payment.svg';
+import React from 'react';
+import { Box, Drawer, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar } from '@mui/material';
+import { Link, useLocation } from 'react-router-dom';
+import homeIcon from '../../assets/icons/icon-home.svg';
 import invoiceIcon from '../../assets/icons/icon-invoice.svg';
-import serviceIcon from '../../assets/icons/icon-service.svg';
-import medicineIcon from '../../assets/icons/icon-medicines.svg';
-import compaignIcon from '../../assets/icons/icon-campaign.svg';
-import settingIcon from '../../assets/icons/icon-settings.svg';
-//import Icon from '../../assets/icons/'
-const navLinks = [
-    {
-      name: "ifsc",
-      icon: homeIcon,
-      link: "/ifsc",
-    },
-    {
-      name: "blogs",
-      icon: invoiceIcon,
-      link: "/blogs",
-    }
-  ];
 
+const drawerWidth = 240;
 
-const Sidebar: React.FC = () => {
-  const {pathname} = useLocation();
-  return (
-    <Box sx={{
-        backgroundColor: "#018786",
-        padding: 2,
-        borderRadius: 2,
-        display: "flex",
-        flexDirection: {
-          xs: "row",
-          lg: "column",
-        },
-        alignItems: "center",
-        justifyContent: "space-between",
-        width: {
-          sm: "100%",
-          lg: 200,
-        },
-     }}>
-        
-       {/* //menu   */}
-       <Box sx={{
-            display: "flex",
-            flexDirection: {
-                xs: "row",
-                lg: "column",
-            },
-            gap: 5,
-            alignItems: {
-                xs: "center",
-                lg: "start",
-            },
-            width: "100%",
-       }}>
-       <Hidden smDown>
-          <Typography
-            variant="h5"
-            component="h1"
-            my={2}
-            fontWeight={400}
-            fontSize={18}
-          >
-            Doctor
-          </Typography>
-        </Hidden>
-
-        <Box sx={{
-            py: {
-                xs: "0px",
-                lg: "16px",
-            },
-            display: "flex",
-            flexDirection: {
-                xs: "row",
-                lg: "column",
-            },
-            gap: 4,
-        }}>
-         {navLinks.map((item)=>(
-            <Link 
-                key={item.name}
-                to={item.link}
-                style={{ textDecoration: "none" }}
-            >
-            <Box sx={{
-                display: "flex",
-                alignItems: "center",
-                gap: 2,
-                color: "white",
-                textDecoration: "none",
-            }}>
-            <img
-                  src={item.icon}
-                  alt={item.name}
-                  style={{
-                    width: "25px",
-                    filter: `${
-                      pathname === item.link
-                        ? "invert(58%) sepia(14%) saturate(3166%) hue-rotate(215deg) brightness(91%) contrast(87%)"
-                        : "invert(84%)"
-                    }`,
-                  }}
-            />
-            <Hidden mdDown>
-                  <Typography>{item.name}</Typography>
-            </Hidden>
-            </Box>
-
-             </Link>
-         ))}
-
-
-        </Box>
-       </Box>
-    </Box>
-  )
+interface SidebarProps {
+  mobileOpen: boolean;
+  handleDrawerToggle: () => void;
 }
+
+// Define the navLinks array with custom icons
+const navLinks = [
+  {
+    name: "Ifsc",
+    icon: homeIcon,
+    link: "/ifsc",
+  },
+  {
+    name: "Blogs",
+    icon: invoiceIcon,
+    link: "/blog",
+  },
+];
+
+const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {
+  const location = useLocation();
+
+  const drawer = (
+    <Box>
+      <Toolbar />
+      <Divider />
+      <List>
+        {navLinks.map((item) => (
+          <ListItem key={item.name} disablePadding>
+            <Link to={item.link} style={{ textDecoration: "none", color: "inherit" }}>
+              <ListItemButton selected={location.pathname === item.link}>
+                <ListItemIcon>
+                  <img
+                    src={item.icon}
+                    alt={`${item.name} icon`}
+                    style={{
+                      width: 24,
+                      filter: location.pathname === item.link
+                        ? "invert(58%) sepia(14%) saturate(3166%) hue-rotate(215deg) brightness(91%) contrast(87%)"
+                        : "invert(84%)",
+                    }}
+                  />
+                </ListItemIcon>
+                <ListItemText primary={item.name} />
+              </ListItemButton>
+            </Link>
+          </ListItem>
+        ))}
+      </List>
+      <Divider />
+    </Box>
+  );
+
+  return (
+    <Box component="nav" sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}>
+      {/* Temporary Drawer for Mobile */}
+      <Drawer
+        variant="temporary"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        ModalProps={{ keepMounted: true }} // Improve mobile performance
+        sx={{
+          display: { xs: 'block', sm: 'none' },
+          '& .MuiDrawer-paper': { width: drawerWidth },
+        }}
+      >
+        {drawer}
+      </Drawer>
+
+      {/* Permanent Drawer for Desktop */}
+      <Drawer
+        variant="permanent"
+        sx={{
+          display: { xs: 'none', sm: 'block' },
+          '& .MuiDrawer-paper': { width: drawerWidth },
+        }}
+        open
+      >
+        {drawer}
+      </Drawer>
+    </Box>
+  );
+};
 
 export default Sidebar;
