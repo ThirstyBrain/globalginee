@@ -73,7 +73,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Responsive Drawer
+            Globalginee
           </Typography>
         </Toolbar>
       </AppBar>

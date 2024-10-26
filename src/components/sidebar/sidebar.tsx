@@ -61,7 +61,7 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => 
 
   return (
     <Box component="nav" sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}>
-      {/* Temporary Drawer for Mobile */}
+      {/* Temporary Drawer for Mobile  */}
       <Drawer
         variant="temporary"
         open={mobileOpen}
