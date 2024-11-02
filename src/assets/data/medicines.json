@@ -1,0 +1,417 @@
+[
+    {
+      "id": "1",
+      "name": "Aspirin",
+      "genericName": "Acetylsalicylic acid",
+      "usages": [
+        "Pain relief",
+        "Fever reduction",
+        "Prevention of heart attacks"
+      ],
+      "sideEffects": [
+        "Stomach upset",
+        "Bleeding risk"
+      ],
+      "alternatives": [],
+      "interactions": [
+        {
+          "medicines": [
+            "Warfarin",
+            "Heparin"
+          ],
+          "description": "Increased risk of bleeding when combined with blood thinners"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Paracetamol",
+      "genericName": "Acetaminophen",
+      "usages": [
+        "Pain relief",
+        "Fever reduction"
+      ],
+      "sideEffects": [
+        "Liver damage (in high doses)",
+        "Rare allergic reactions"
+      ],
+      "alternatives": [],
+      "interactions": [
+        {
+          "medicines": [
+            "Alcohol"
+          ],
+          "description": "Increased risk of liver damage"
+        }
+      ]
+    },{
+        "id": "1",
+        "name": "Abacavir Sulfate",
+        "genericName": "Abacavir",
+        "usages": [
+            "Treatment of HIV infection"
+        ],
+        "sideEffects": [
+            "Nausea",
+            "Fatigue",
+            "Headache"
+        ],
+        "alternatives": [],
+        "interactions": [
+            {
+                "medicines": [
+                    "Alcohol",
+                    "Ribavirin"
+                ],
+                "description": "Increased risk of liver toxicity when combined with certain medications."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Abatacept",
+        "genericName": "Abatacept",
+        "usages": [
+            "Treatment of rheumatoid arthritis",
+            "Treatment of psoriatic arthritis",
+            "Prophylaxis of acute graft-versus-host disease"
+        ],
+        "sideEffects": [
+            "Increased risk of infections",
+            "Headache",
+            "Nausea"
+        ],
+        "alternatives": [],
+        "interactions": [
+            {
+                "medicines": [
+                    "Anakinra",
+                    "TNF inhibitors"
+                ],
+                "description": "Increased risk of serious infections when used with other immunosuppressants."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Abilify",
+        "genericName": "Aripiprazole",
+        "usages": [
+            "Treatment of schizophrenia",
+            "Bipolar disorder management",
+            "Adjunctive treatment for major depressive disorder"
+        ],
+        "sideEffects": [
+            "Weight gain",
+            "Drowsiness",
+            "Restlessness"
+        ],
+        "alternatives": [],
+        "interactions": [
+            {
+                "medicines": [
+                    "Fluoxetine",
+                    "Ketoconazole"
+                ],
+                "description": "Increased risk of side effects when combined with certain antidepressants or antifungals."
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Acamprosate Calcium",
+        "genericName": "",
+        "usages": [
+            "Management of alcohol dependence"
+        ],
+        "sideEffects": [
+            "Diarrhea",
+            "Nausea"
+        ],
+        "alternatives": [],
+        "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+        "id": "5",
+        "name": "Accretropin",
+        "genericName": "",
+        "usages": [
+            ""
+        ],
+        "sideEffects": [],
+        "alternatives": [],
+        "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+        "id": "6",
+        "name": "Aceon",
+      "genericName": "Perindopril",
+      "usages": [
+          "Management of hypertension",
+          "Heart failure treatment"
+      ],
+      "sideEffects": [
+          "Cough",
+          "Dizziness",
+          "Fatigue"
+      ],
+      "alternatives": [],
+      "interactions": [
+          {
+              "medicines": [
+                  "Diuretics",
+                  "NSAIDs"
+              ],
+              "description": "May enhance hypotensive effects or reduce effectiveness."
+          }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Aci-Jel",
+      "genericName": "",
+      "usages": [
+          "Topical anesthetic for mucosal pain"
+      ],
+      "sideEffects": [
+          "Burning sensation",
+          "Allergic reactions"
+      ],
+      "alternatives": [],
+      "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+      "id": "8",
+      "name": "Acthrel",
+      "genericName": "",
+      "usages": [
+          "Stimulation test for adrenal function"
+      ],
+      "sideEffects": [],
+      "alternatives": [],
+      "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+      "id": "9",
+      "name": "Actimmune",
+      "genericName": "",
+      "usages": [
+          ""
+      ],
+      "sideEffects": [],
+      "alternatives": [],
+      "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+      "id": "10",
+      "name": "Actisite",
+      "genericName": "",
+      "usages": [
+          ""
+      ],
+      "sideEffects": [],
+      "alternatives": [],
+      "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+    {
+      "id": "11",
+       "name": "Acular",
+       "genericName": "Ketorolac",
+       "usages": [ "Pain relief in eye surgery"],
+       "sideEffects": [ "Burning sensation in eye", "Blurred vision"],
+       "alternatives": [],
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+    },
+   {
+     "id": "12",
+     "name": "Acular LS",
+     "genericName": "Ketorolac",
+     "usages": [ "Pain relief in eye surgery"],
+     "sideEffects": [ "Burning sensation in eye", "Blurred vision"],
+     "alternatives": [],
+     "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+   },
+   {
+     "id": "13",
+     "name": "Acuvail",
+     "genericName": "Ketorolac",
+     "usages": [ "Pain relief in eye surgery", "Reduction of inflammation in the eye"],
+     "sideEffects": [ "Burning sensation in eye", "Blurred vision", "Headache"],
+     "alternatives": [],
+     "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+   },
+   {
+     "id": "14",
+     "name": "Adagen",
+     "genericName": "",
+     "usages": [ ""],
+     "sideEffects":[""],
+     "alternatives":[],
+     "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]
+   },
+   {
+     "id": "15", 
+     "name": "Adapalene", 
+     "genericName": "", 
+     "usages": [ "Topical treatment for acne" ], 
+     "sideEffects": [ "Skin irritation", "Dryness" ], 
+     "alternatives": [], 
+     "interactions": [{
+            "medicines": [],
+            "description": ""
+          }] 
+   },
+   {
+       "id": "16", 
+       "name": "Adcirca", 
+       "genericName": "Tadalafil", 
+       "usages": [ "Treatment of pulmonary arterial hypertension" ], 
+       "sideEffects": [ "Headache", "Flushing", "Nasal congestion" ], 
+       "alternatives": [], 
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }] 
+   },  
+   {
+       "id": "17", 
+       "name": "Adefovir Dipivoxil", 
+       "genericName": "", 
+       "usages": [ "Treatment of chronic hepatitis B" ], 
+       "sideEffects": [ "Nausea", "Diarrhea", "Fatigue" ], 
+       "alternatives": [], 
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }] 
+   },  
+   {
+       "id": "18", 
+       "name": "Adenoscan", 
+       "genericName": "", 
+       "usages": [ ""], 
+       "sideEffects": [], 
+       "alternatives": [], 
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]  
+   },  
+   {
+       "id": "19", 
+       "name": "Adenosine", 
+       "genericName": "", 
+       "usages": [ "" ], 
+       "sideEffects": [], 
+       "alternatives": [], 
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]  
+   },  
+   {
+       "id": "20",  
+       "name": "Adipex-P",  
+       "genericName": "Phentermine",  
+       "usages": ["Weight loss management"],  
+       "sideEffects": ["Increased heart rate", "Insomnia"],  
+       "alternatives": [],  
+       "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]  
+   },  
+   {
+         "id": "21",  
+         "name": "AdreView",  
+         "genericName": "Iobenguane I-123",  
+         "usages": ["Diagnostic imaging agent"],  
+         "sideEffects": [],  
+         "alternatives": [],  
+         "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]  
+   },  
+   {
+         "id": "22",  
+         "name": "Advair HFA",  
+         "genericName": "Fluticasone/Salmeterol",  
+         "usages": ["Management of asthma and COPD"],  
+         "sideEffects": ["Oral thrush", "Hoarseness"],  
+         "alternatives": [],  
+         "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]  
+   },   
+   {
+         "id": "23",   
+         "name": "Aerospan HFA",   
+         "genericName": "Flunisolide",   
+         "usages": ["Management of asthma"],   
+         "sideEffects": ["Cough", "Throat irritation"],   
+         "alternatives": [],   
+         "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]   
+   },   
+   {   
+         "id": "24",   
+         "name": "Agalsidase Beta",   
+         "genericName": "",   
+         "usages": ["Enzyme replacement therapy for Fabry disease"],   
+         "sideEffects": ["Infusion reactions", "Headache"],   
+         "alternatives": [],   
+         "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]   
+   },    
+   {    
+         "id": "25",    
+         "name": "Aggrenox",    
+         "genericName": "",    
+         "usages": ["Prevention of stroke"],    
+         "sideEffects": ["Headache", "Nausea"],    
+         "alternatives": [],    
+         "interactions": [{
+            "medicines": [],
+            "description": ""
+          }]    
+   }
+]
+
+
+

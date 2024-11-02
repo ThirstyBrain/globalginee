@@ -32,6 +32,16 @@ const navLinks = [
     name: "Pdf Merge",
     icon: invoiceIcon,
     link: "/pdfmerge",
+  },
+  {
+    name: "Makeup Product",
+    icon: invoiceIcon,
+    link: "/makeupproduct",
+  },
+  {
+    name: "Medicine Info",
+    icon: invoiceIcon,
+    link: "/medicineinfo",
   }
   // ,{
   //   name: "Pdf to Word",
