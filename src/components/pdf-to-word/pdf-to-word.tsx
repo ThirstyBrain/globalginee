@@ -93,6 +93,7 @@ const PDFToWord: React.FC = () => {
           }
         })
       );
+      console.error("convertedFiles ", convertedFiles);
     } catch (error) {
       console.error("Conversion Error:", error);
       setError(
