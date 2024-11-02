@@ -55,7 +55,7 @@ import { Product } from '../models';
           const signal = controller.signal;
   
           const response = await fetch(
-            'http://makeup-api.herokuapp.com/api/v1/products.json',
+            'https://makeup-api.herokuapp.com/api/v1/products.json',
             { signal }
           );
   
