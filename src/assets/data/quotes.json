@@ -1,0 +1,262 @@
+  [
+    {
+        "title": "Digital Mindfulness",
+        "description": "Technology is not just a tool. It is an extension of our consciousness, and it demands mindful engagement to maintain our humanity.",
+        "image": "/static/images/cards/digital-mindfulness.jpg"
+    },
+    {
+        "title": "Attention Economy",
+        "description": "In the age of information abundance, attention becomes the scarcest and most valuable resource.",
+        "image": "/static/images/cards/attention-economy.jpg"
+    },
+    {
+        "title": "Digital Wellbeing",
+        "description": "The key is not to prioritize what's on your schedule, but to schedule your priorities in both digital and physical spaces.",
+        "image": "/static/images/cards/digital-wellbeing.jpg"
+    },
+    {
+        "title": "Tech Balance",
+        "description": "Technology should enhance our lives, not consume them. Finding balance is the key to digital wellness.",
+        "image": "/static/images/cards/tech-balance.jpg"
+    },
+    {
+        "title": "Digital Empathy",
+        "description": "Behind every screen is a human being. Never forget the power of empathy in digital interactions.",
+        "image": "/static/images/cards/digital-empathy.jpg"
+    },
+    {
+        "title": "Cognitive Load",
+        "description": "The human brain wasn't designed for constant digital interruption. Manage your cognitive load like you manage your devices.",
+        "image": "/static/images/cards/cognitive-load.jpg"
+    },
+    {
+        "title": "Digital Habits",
+        "description": "Your technology habits shape your neural pathways. Choose them wisely.",
+        "image": "/static/images/cards/digital-habits.jpg"
+    },
+    {
+        "title": "Tech Anxiety",
+        "description": "FOMO is not a tech problem; it's a psychological one manifesting in digital spaces.",
+        "image": "/static/images/cards/tech-anxiety.jpg"
+    },
+    {
+        "title": "Digital Identity",
+        "description": "We are not just who we are offline, but also who we choose to be online.",
+        "image": "/static/images/cards/digital-identity.jpg"
+    },
+    {
+        "title": "Cyber Psychology",
+        "description": "The internet is not just a network of computers; it's a network of human minds.",
+        "image": "/static/images/cards/cyber-psychology.jpg"
+    },
+    {
+        "title": "Tech Addiction",
+        "description": "The difference between technology addiction and engagement is mindfulness.",
+        "image": "/static/images/cards/tech-addiction.jpg"
+    },
+    {
+        "title": "Digital Growth",
+        "description": "Technology amplifies who we are. Personal growth in the digital age requires both technical and emotional intelligence.",
+        "image": "/static/images/cards/digital-growth.jpg"
+    },
+    {
+        "title": "Online Behavior",
+        "description": "Your online behavior is a reflection of your inner psychological state.",
+        "image": "/static/images/cards/online-behavior.jpg"
+    },
+    {
+        "title": "Virtual Reality",
+        "description": "VR doesn't just create new worlds; it creates new perspectives on our own psychology.",
+        "image": "/static/images/cards/virtual-reality.jpg"
+    },
+    {
+        "title": "Digital Learning",
+        "description": "The best technology is the one that brings out the best in human learning and cognition.",
+        "image": "/static/images/cards/digital-learning.jpg"
+    },
+    {
+        "title": "Tech Ethics",
+        "description": "With great technological power comes great psychological responsibility.",
+        "image": "/static/images/cards/tech-ethics.jpg"
+    },
+    {
+        "title": "Screen Time",
+        "description": "Quality of screen time matters more than quantity. Make every digital moment count.",
+        "image": "/static/images/cards/screen-time.jpg"
+    },
+    {
+        "title": "Digital Relationships",
+        "description": "Technology connects minds, but psychology connects hearts.",
+        "image": "/static/images/cards/digital-relationships.jpg"
+    },
+    {
+        "title": "AI Psychology",
+        "description": "As AI evolves, understanding human psychology becomes more crucial, not less.",
+        "image": "/static/images/cards/ai-psychology.jpg"
+    },
+    {
+        "title": "Digital Stress",
+        "description": "Technology should reduce stress, not create it. Design with mental health in mind.",
+        "image": "/static/images/cards/digital-stress.jpg"
+    },
+    {
+        "title": "Tech Innovation",
+        "description": "True innovation happens at the intersection of technological capability and psychological understanding.",
+        "image": "/static/images/cards/tech-innovation.jpg"
+    },
+    {
+        "title": "Digital Focus",
+        "description": "In a world of infinite scrolling, the ability to focus is a superpower.",
+        "image": "/static/images/cards/digital-focus.jpg"
+    },
+    {
+        "title": "Cyber Security",
+        "description": "The strongest firewall is a psychologically aware user.",
+        "image": "/static/images/cards/cyber-security.jpg"
+    },
+    {
+        "title": "Tech Community",
+        "description": "Online communities are real communities. They need the same psychological care and attention.",
+        "image": "/static/images/cards/tech-community.jpg"
+    },
+    {
+        "title": "Digital Creativity",
+        "description": "Technology amplifies creativity when it aligns with our psychological needs for expression.",
+        "image": "/static/images/cards/digital-creativity.jpg"
+    },
+    {
+        "title": "Tech Leadership",
+        "description": "Leading in tech requires understanding both algorithms and human psychology.",
+        "image": "/static/images/cards/tech-leadership.jpg"
+    },
+    {
+        "title": "Digital Boundaries",
+        "description": "Setting healthy digital boundaries is an act of self-respect.",
+        "image": "/static/images/cards/digital-boundaries.jpg"
+    },
+    {
+        "title": "Tech Communication",
+        "description": "The best digital communication tools account for human psychological needs.",
+        "image": "/static/images/cards/tech-communication.jpg"
+    },
+    {
+        "title": "Digital Wisdom",
+        "description": "Wisdom in the digital age means knowing when to use technology and when to unplug.",
+        "image": "/static/images/cards/digital-wisdom.jpg"
+    },
+    {
+        "title": "Tech Culture",
+        "description": "A healthy tech culture prioritizes both psychological safety and innovation.",
+        "image": "/static/images/cards/tech-culture.jpg"
+    },
+    {
+        "title": "Digital Resilience",
+        "description": "Building digital resilience is as important as building technical skills.",
+        "image": "/static/images/cards/digital-resilience.jpg"
+    },
+    {
+        "title": "Tech Education",
+        "description": "The future of tech education lies in understanding both circuits and synapses.",
+        "image": "/static/images/cards/tech-education.jpg"
+    },
+    {
+        "title": "Digital Health",
+        "description": "Mental health in the digital age requires both online and offline wellness strategies.",
+        "image": "/static/images/cards/digital-health.jpg"
+    },
+    {
+        "title": "Tech Mindset",
+        "description": "A growth mindset in technology means embracing both technical and psychological challenges.",
+        "image": "/static/images/cards/tech-mindset.jpg"
+    },
+    {
+        "title": "Digital Progress",
+        "description": "True progress in technology must be measured by its psychological impact on users.",
+        "image": "/static/images/cards/digital-progress.jpg"
+    },
+    {
+        "title": "Tech Harmony",
+        "description": "The sweet spot in technology is where user experience meets psychological well-being.",
+        "image": "/static/images/cards/tech-harmony.jpg"
+    },
+    {
+        "title": "Digital Evolution",
+        "description": "As technology evolves, so must our understanding of its psychological implications.",
+        "image": "/static/images/cards/digital-evolution.jpg"
+    },
+    {
+        "title": "Tech Integration",
+        "description": "Successful tech integration requires understanding both system architecture and human architecture.",
+        "image": "/static/images/cards/tech-integration.jpg"
+    },
+    {
+        "title": "Digital Awareness",
+        "description": "Being digitally literate means being psychologically aware in online spaces.",
+        "image": "/static/images/cards/digital-awareness.jpg"
+    },
+    {
+        "title": "Tech Transformation",
+        "description": "Digital transformation is as much about psychological adaptation as it is about technological upgrade.",
+        "image": "/static/images/cards/tech-transformation.jpg"
+    },
+    {
+        "title": "Digital Success",
+        "description": "Success in the digital age requires balancing technological capability with psychological sustainability.",
+        "image": "/static/images/cards/digital-success.jpg"
+    },
+    {
+        "title": "Tech Wellness",
+        "description": "Digital wellness is about creating technology that nurtures rather than depletes psychological resources.",
+        "image": "/static/images/cards/tech-wellness.jpg"
+    },
+    {
+        "title": "Digital Future",
+        "description": "The future of technology lies in its ability to enhance rather than replace human psychological experiences.",
+        "image": "/static/images/cards/digital-future.jpg"
+    },
+    {
+        "title": "Tech Adaptation",
+        "description": "Adapting to new technology requires psychological flexibility as much as technical skill.",
+        "image": "/static/images/cards/tech-adaptation.jpg"
+    },
+    {
+        "title": "Digital Development",
+        "description": "Sustainable digital development must consider both technological scalability and psychological impact.",
+        "image": "/static/images/cards/digital-development.jpg"
+    },
+    {
+        "title": "Tech Solutions",
+        "description": "The best tech solutions address both technical problems and psychological needs.",
+        "image": "/static/images/cards/tech-solutions.jpg"
+    },
+    {
+        "title": "Digital Legacy",
+        "description": "Our digital legacy will be judged not just by our technological achievements, but by their psychological impact.",
+        "image": "/static/images/cards/digital-legacy.jpg"
+    },
+    {
+        "title": "Tech Harmony",
+        "description": "True technological harmony comes from aligning digital capabilities with psychological well-being.",
+        "image": "/static/images/cards/tech-harmony-2.jpg"
+    },
+    {
+        "title": "Digital Potential",
+        "description": "Unlocking digital potential requires understanding both technological capabilities and psychological limitations.",
+        "image": "/static/images/cards/digital-potential.jpg"
+    },
+    {
+        "title": "Tech Vision",
+        "description": "A comprehensive tech vision must encompass both technological advancement and psychological wisdom.",
+        "image": "/static/images/cards/tech-vision.jpg"
+    },
+    {
+        "title": "Digital Impact",
+        "description": "The most meaningful technological impacts often come from understanding human psychology.",
+        "image": "/static/images/cards/digital-impact.jpg"
+    },
+    {
+        "title": "Tech Revolution",
+        "description": "The real tech revolution isn't just in new devices, but in new understandings of human psychology.",
+        "image": "/static/images/cards/tech-revolution.jpg"
+    }
+]
