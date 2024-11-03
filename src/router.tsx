@@ -10,11 +10,14 @@ import PDFToWord from "./components/pdf-to-word/pdf-to-word";
 import MakeupProduct from "./components/makeup-products/makeup-product";
 import MedicineInfo from "./components/medicine-info/medicine-info";
 import TicTacToe from "./components/game/tic-tac-toe";
+import ResumeBuilder from "./components/resume-builder/resume-builder";
+import QRCode from "./components/qr-code/qr-code";
+import LandingPage from "./components/home/home";
 
 export const router = createHashRouter([
     {
         path:'/',
-        element:<Ifsc />,
+        element:<LandingPage />,
         errorElement:<Error/>
     },
     {
@@ -56,9 +59,19 @@ export const router = createHashRouter([
         path: "/medicineinfo",
         element: <MedicineInfo/>,
         errorElement:<Error/>
-    },   {
+    },
+    {
         path: "/tictactoe",
         element: <TicTacToe/>,
+        errorElement:<Error/>
+    },
+    {
+        path: "/resumebuilder",
+        element: <ResumeBuilder/>,
+        errorElement:<Error/>
+    },{
+        path: "/qrcode",
+        element: <QRCode/>,
         errorElement:<Error/>
     },
 ]);

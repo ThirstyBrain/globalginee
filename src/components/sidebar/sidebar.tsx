@@ -57,6 +57,16 @@ const navLinks = [
     name: "Tic Tac Toe",
     icon: invoiceIcon,
     link: "/tictactoe",
+  },
+  {
+    name: "Resume Builder",
+    icon: invoiceIcon,
+    link: "/resumebuilder",
+  },
+  {
+    name: "QR Code Generator",
+    icon: invoiceIcon,
+    link: "/qrcode",
   }
 ];
 

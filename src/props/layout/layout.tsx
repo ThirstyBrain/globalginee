@@ -38,6 +38,7 @@ import React, { useState } from 'react';
 import { AppBar, Box, CssBaseline, IconButton, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from '../../components/sidebar/sidebar';
+import { Link } from "react-router-dom";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -72,8 +73,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Globalginee
+          <Typography variant="h6" noWrap component={Link} to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+             Globalginee
           </Typography>
         </Toolbar>
       </AppBar>
