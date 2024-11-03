@@ -33,16 +33,16 @@ const navLinks = [
     icon: invoiceIcon,
     link: "/pdfmerge",
   },
-  {
-    name: "Makeup Product",
-    icon: invoiceIcon,
-    link: "/makeupproduct",
-  },
+  // {
+  //   name: "Makeup Product",
+  //   icon: invoiceIcon,
+  //   link: "/makeupproduct",
+  // },
   {
     name: "Medicine Info",
     icon: invoiceIcon,
     link: "/medicineinfo",
-  }
+  },
   // ,{
   //   name: "Pdf to Word",
   //   icon: invoiceIcon,
@@ -53,6 +53,11 @@ const navLinks = [
   //   icon: invoiceIcon,
   //   link: "/blog",
   // },
+  {
+    name: "Tic Tac Toe",
+    icon: invoiceIcon,
+    link: "/tictactoe",
+  }
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {

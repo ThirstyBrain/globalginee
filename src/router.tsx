@@ -9,6 +9,7 @@ import PDFMerge from "./components/merge-pdf/pdf-merge";
 import PDFToWord from "./components/pdf-to-word/pdf-to-word";
 import MakeupProduct from "./components/makeup-products/makeup-product";
 import MedicineInfo from "./components/medicine-info/medicine-info";
+import TicTacToe from "./components/game/tic-tac-toe";
 
 export const router = createHashRouter([
     {
@@ -54,6 +55,10 @@ export const router = createHashRouter([
     {
         path: "/medicineinfo",
         element: <MedicineInfo/>,
+        errorElement:<Error/>
+    },   {
+        path: "/tictactoe",
+        element: <TicTacToe/>,
         errorElement:<Error/>
     },
 ]);
