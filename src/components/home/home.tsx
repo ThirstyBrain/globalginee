@@ -114,6 +114,14 @@ const LandingPage: React.FC = () => {
               </Paper>
             </Link>
           </Grid>
+          <Grid item xs={12} sm={4}>
+            <Link to="/invoicegenerator" className={classes.feature}>
+              <Paper className={classes.feature}>
+                <Typography variant="h6">Invoice Generator</Typography>
+                <Typography>Create and manage your invoices.</Typography>
+              </Paper>
+            </Link>
+          </Grid>
 
 
         </Grid>

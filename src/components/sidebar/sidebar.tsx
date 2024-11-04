@@ -67,6 +67,10 @@ const navLinks = [
     name: "QR Code Generator",
     icon: invoiceIcon,
     link: "/qrcode",
+  },{
+    name: "Invoice Generator",
+    icon: invoiceIcon,
+    link: "/invoicegenerator",
   }
 ];
 

@@ -13,6 +13,7 @@ import TicTacToe from "./components/game/tic-tac-toe";
 import ResumeBuilder from "./components/resume-builder/resume-builder";
 import QRCode from "./components/qr-code/qr-code";
 import LandingPage from "./components/home/home";
+import InvoiceGenerate from "./components/invoice-generate/App";
 
 export const router = createHashRouter([
     {
@@ -72,6 +73,11 @@ export const router = createHashRouter([
     },{
         path: "/qrcode",
         element: <QRCode/>,
+        errorElement:<Error/>
+    },
+    {
+        path: '/invoicegenerator',
+        element: <InvoiceGenerate />,
         errorElement:<Error/>
     },
 ]);
