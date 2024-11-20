@@ -104,7 +104,7 @@ const sampleQuestions: QuizQuestion[] = [
 const PersonalityQuiz: React.FC<PersonalityQuizProps> = ({ setPersonalityType, setCurrentPage }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<string[]>([]);
-  const [loading, setLoading] = useState(false);
+  //const [loading, setLoading] = useState(false);
 
   const handleAnswer = (answer: string) => {
     const newAnswers = [...answers];
