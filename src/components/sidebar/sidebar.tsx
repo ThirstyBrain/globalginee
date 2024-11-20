@@ -84,10 +84,16 @@ const navLinks = [
     name: "Persona Path",
     icon: personaIcon,
     link: "/personapath",
-  },{
-    name: "Bloom Cycle",
+  },
+  // {
+  //   name: "Bloom Cycle",
+  //   icon: bloomcycleIcon,
+  //   link: "/bloomcycle",
+  // },
+  {
+    name: "Ovulation Calculator",
     icon: bloomcycleIcon,
-    link: "/bloomcycle",
+    link: "/ovulationcalculator",
   }
 ];
 

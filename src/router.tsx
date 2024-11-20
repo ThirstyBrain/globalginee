@@ -18,6 +18,7 @@ import PersonaPath from "./components/persona-path/persona-path";
 import BloomCycle from "./components/bloom-cycle/bloom-cycle";
 import HomePage from "./components/bloom-cycle/pages/home-page";
 import TrackerPage from "./components/bloom-cycle/pages/tracker-page";
+import OvulationCalcApp from "./components/ovulation-calculator/ovulation-calc-app";
 
 export const router = createHashRouter([
     {
@@ -103,5 +104,10 @@ export const router = createHashRouter([
                 element: <TrackerPage />,
             },
         ],
+    },
+    {
+        path: '/ovulationcalculator',
+        element: <OvulationCalcApp />,
+        errorElement:<Error/>
     },
 ]);
