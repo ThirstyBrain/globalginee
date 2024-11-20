@@ -2,8 +2,17 @@ import React from 'react';
 import { Box, Drawer, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 import homeIcon from '../../assets/icons/icon-home.svg';
+import doctorIcon from '../../assets/icons/icon-doctor.svg';
+//import paymentIcon from '../../assets/icons/icon-payment.svg';
+import qrCodeIcon from '../../assets/icons/icon-qr-code.svg';
+import ticTacIcon from '../../assets/icons/tic-tac-toe-svgrepo-com.svg';
+import pdfIcon from '../../assets/icons/pdf-svgrepo-com.svg';
+import resumeIcon from '../../assets/icons/icon-resume.svg';
 import invoiceIcon from '../../assets/icons/icon-invoice.svg';
-
+import personaIcon from '../../assets/icons/persona-svgrepo-com.svg';
+import bloomcycleIcon from '../../assets/icons/icon-bloomcycle.svg';
+// import globalgineeIcon from '../../assets/icons/icon-globalginee.svg';
+// import AdbIcon from '@mui/icons-material/Adb';
 const drawerWidth = 240;
 
 interface SidebarProps {
@@ -30,7 +39,7 @@ const navLinks = [
   // },
   {
     name: "Pdf Merge",
-    icon: invoiceIcon,
+    icon: pdfIcon,
     link: "/pdfmerge",
   },
   // {
@@ -40,7 +49,7 @@ const navLinks = [
   // },
   {
     name: "Medicine Info",
-    icon: invoiceIcon,
+    icon: doctorIcon,
     link: "/medicineinfo",
   },
   // ,{
@@ -55,22 +64,30 @@ const navLinks = [
   // },
   {
     name: "Tic Tac Toe",
-    icon: invoiceIcon,
+    icon: ticTacIcon,
     link: "/tictactoe",
   },
   {
     name: "Resume Builder",
-    icon: invoiceIcon,
+    icon: resumeIcon,
     link: "/resumebuilder",
   },
   {
     name: "QR Code Generator",
-    icon: invoiceIcon,
+    icon: qrCodeIcon,
     link: "/qrcode",
   },{
     name: "Invoice Generator",
     icon: invoiceIcon,
     link: "/invoicegenerator",
+  },{
+    name: "Persona Path",
+    icon: personaIcon,
+    link: "/personapath",
+  },{
+    name: "Bloom Cycle",
+    icon: bloomcycleIcon,
+    link: "/bloomcycle",
   }
 ];
 
@@ -79,7 +96,15 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => 
 
   const drawer = (
     <Box>
-      <Toolbar />
+      <Toolbar>
+         {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+         {/* <Typography variant="h6" noWrap> Globalginee </Typography> */}
+         {/* <img src={globalgineeIcon} alt="Kitten" height="100" width="100" /> */}
+      </Toolbar>
+      {/* <Toolbar disableGutters>
+         <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+      <Toolbar /> */}
+
       <Divider />
       <List>
         {navLinks.map((item) => (

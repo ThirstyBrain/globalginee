@@ -14,6 +14,10 @@ import ResumeBuilder from "./components/resume-builder/resume-builder";
 import QRCode from "./components/qr-code/qr-code";
 import LandingPage from "./components/home/home";
 import InvoiceGenerate from "./components/invoice-generate/App";
+import PersonaPath from "./components/persona-path/persona-path";
+import BloomCycle from "./components/bloom-cycle/bloom-cycle";
+import HomePage from "./components/bloom-cycle/pages/home-page";
+import TrackerPage from "./components/bloom-cycle/pages/tracker-page";
 
 export const router = createHashRouter([
     {
@@ -79,5 +83,25 @@ export const router = createHashRouter([
         path: '/invoicegenerator',
         element: <InvoiceGenerate />,
         errorElement:<Error/>
+    },
+    {
+        path: '/personapath',
+        element: <PersonaPath />,
+        errorElement:<Error/>
+    },
+    {
+        path: '/bloomcycle',
+        element: <BloomCycle />,
+        errorElement:<Error/>,
+        children: [
+            {
+                path: "",
+                element: <HomePage />,
+            },
+            {
+                path: "tracker",
+                element: <TrackerPage />,
+            },
+        ],
     },
 ]);

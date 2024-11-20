@@ -1,0 +1,599 @@
+{
+    
+    "INTJ": {
+        "code": "INTJ",
+        "name": "Architect",
+        "description": "Imaginative and strategic thinkers with a plan for everything.",
+        "strengths": ["Strategic Planning", "Independent Thinking", "Complex Problem Solving"],
+        "weaknesses": ["Perfectionism", "Difficulty with Emotional Expression", "Can be overly critical"],
+        "careerSuggestions": ["Engineer", "Strategist", "Scientist"],
+        "communicationStyle": "Direct and focused on efficiency.",
+        "stressTriggers": ["Micromanagement", "Lack of independence", "Emotionally charged environments"],
+        "recommendedGoals": [
+        {
+            "id": "intj-1",
+            "title": "Develop Emotional Intelligence",
+            "description": "Practice recognizing and expressing emotions in a healthy way.",
+            "difficulty": "Medium",
+            "timeframe": "Long",
+            "relatedTrait": "Thinking",
+            "category": "Emotional Growth"
+        },
+        {
+            "id": "intj-2",
+            "title": "Enhance Team Collaboration",
+            "description": "Work on being more open to others' ideas and perspectives.",
+            "difficulty": "Hard",
+            "timeframe": "Medium",
+            "relatedTrait": "Introversion",
+            "category": "Social Skills"
+        }
+        ],
+        "growthAreas": [
+        {
+            "trait": "Emotional Expression",
+            "exercises": [
+            {
+                "id": "ex-1",
+                "title": "Daily Emotion Journal",
+                "description": "Spend 10 minutes writing about your emotions and their triggers.",
+                "frequency": "Daily",
+                "duration": "10 minutes"
+            },
+            {
+                "id": "ex-2",
+                "title": "Active Listening Practice",
+                "description": "Practice focusing entirely on understanding others' perspectives without planning responses.",
+                "frequency": "Weekly",
+                "duration": "30 minutes"
+            }
+            ],
+            "resources": [
+            {
+                "id": "res-1",
+                "title": "Understanding Emotional Intelligence",
+                "type": "Article",
+                "description": "A guide to developing emotional awareness for analytical personalities."
+            }
+            ]
+        }
+        ]
+    },
+    "INFJ": {
+        "code": "INFJ",
+        "name": "Advocate",
+        "description": "Quiet and mystical, yet inspiring and idealistic.",
+        "strengths": ["Deep Insights", "Compassionate", "Idealistic"],
+        "weaknesses": ["Prone to burnout", "Overly sensitive", "Difficulty with conflict"],
+        "careerSuggestions": ["Counselor", "Writer", "Psychologist"],
+        "communicationStyle": "Empathetic and focuses on building deep connections.",
+        "stressTriggers": ["Conflict situations", "Shallow interactions", "Unclear values"],
+        "recommendedGoals": [
+        {
+            "id": "infj-1",
+            "title": "Set Healthy Boundaries",
+            "description": "Learn to say no without guilt and maintain personal space.",
+            "difficulty": "Medium",
+            "timeframe": "Short",
+            "relatedTrait": "Feeling",
+            "category": "Productivity"
+        },
+        {
+            "id": "infj-2",
+            "title": "Practice Self-Care",
+            "description": "Incorporate relaxation and self-care into your daily routine.",
+            "difficulty": "Easy",
+            "timeframe": "Ongoing",
+            "relatedTrait": "Introversion",
+            "category": "Productivity"
+        }
+        ],
+        "growthAreas": [
+        {
+            "trait": "Resilience",
+            "exercises": [
+            {
+                "id": "ex-3",
+                "title": "Mindfulness Meditation",
+                "description": "Spend 15 minutes practicing mindfulness meditation.",
+                "frequency": "Daily",
+                "duration": "15 minutes"
+            },
+            {
+                "id": "ex-4",
+                "title": "Expressive Writing",
+                "description": "Write about challenges and reframe negative thoughts.",
+                "frequency": "Weekly",
+                "duration": "30 minutes"
+            }
+            ],
+            "resources": [
+            {
+                "id": "res-2",
+                "title": "Building Emotional Resilience",
+                "type": "Course",
+                "description": "A course on coping with emotional stress and improving resilience."
+            }
+            ]
+        }
+        ]
+    },
+    "ENTJ": {
+        "code": "ENTJ",
+        "name": "Commander",
+        "description": "Bold, imaginative, and strong-willed leaders, always finding a way – or making one.",
+        "strengths": ["Confident Leadership", "Strategic Thinking", "Effective Communication"],
+        "weaknesses": ["Intolerant", "Impatient", "Can be overly blunt"],
+        "careerSuggestions": ["CEO", "Executive", "Entrepreneur"],
+        "communicationStyle": "Assertive and clear, often focused on achieving objectives.",
+        "stressTriggers": ["Lack of control", "Incompetence", "Excessive emotions from others"],
+        "recommendedGoals": [
+          {
+            "id": "entj-1",
+            "title": "Improve Patience",
+            "description": "Practice remaining calm in situations where others may work slower.",
+            "difficulty": "Hard",
+            "timeframe": "Medium",
+            "relatedTrait": "Judging",
+            "category": "Productivity"
+          },
+          {
+            "id": "entj-2",
+            "title": "Enhance Empathy",
+            "description": "Develop listening skills and understand others' perspectives.",
+            "difficulty": "Medium",
+            "timeframe": "Long",
+            "relatedTrait": "Thinking",
+            "category": "Organization"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Empathy",
+            "exercises": [
+              {
+                "id": "ex-5",
+                "title": "Perspective-Taking Exercises",
+                "description": "Practice empathy by reflecting on others' perspectives.",
+                "frequency": "Weekly",
+                "duration": "20 minutes"
+              },
+              {
+                "id": "ex-6",
+                "title": "Nonviolent Communication",
+                "description": "Work on communicating needs without judgment or demands.",
+                "frequency": "Monthly",
+                "duration": "1 hour"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-3",
+                "title": "Developing Empathy in Leadership",
+                "type": "Workshop",
+                "description": "A workshop to improve empathetic skills in leadership contexts."
+              }
+            ]
+          }
+        ]
+    },
+    "ISFJ": {
+      "code": "ISFJ",
+      "name": "Defender",
+      "description": "Compassionate, loyal, reliable, caring, detail-oriented, and responsible.",
+      "strengths": ["Compassion", "Loyalty", "Reliability", "Attention to Detail"],
+      "weaknesses": ["Difficulty with Change", "Avoidance of Conflict", "Can be Overly Self-Critical"],
+      "careerSuggestions": ["Nurse", "Teacher", "Social Worker"],
+      "communicationStyle": "Warm and supportive, focused on harmony and cooperation.",
+      "stressTriggers": ["Unstructured environments", "Conflict situations", "Rapid changes"],
+      "recommendedGoals": [
+        {
+          "id": "isfj-1",
+          "title": "Build Confidence in New Situations",
+          "description": "Practice stepping out of comfort zones in low-risk settings.",
+          "difficulty": "Medium",
+          "timeframe": "Short",
+          "relatedTrait": "Sensing",
+          "category": "Personal Growth"
+        },
+        {
+          "id": "isfj-2",
+          "title": "Improve Adaptability",
+          "description": "Work on becoming more comfortable with change and uncertainty.",
+          "difficulty": "Hard",
+          "timeframe": "Long",
+          "relatedTrait": "Judging",
+          "category": "Resilience"
+        }
+      ],
+      "growthAreas": [
+        {
+          "trait": "Adaptability",
+          "exercises": [
+            {
+              "id": "ex-7",
+              "title": "Exposure to New Experiences",
+              "description": "Try a new hobby or activity to build comfort with change.",
+              "frequency": "Monthly",
+              "duration": "2 hours"
+            },
+            {
+              "id": "ex-8",
+              "title": "Mindfulness Practice",
+              "description": "Spend time practicing mindfulness to manage stress.",
+              "frequency": "Daily",
+              "duration": "10 minutes"
+            }
+          ],
+          "resources": [
+            {
+              "id": "res-4",
+              "title": "Mindfulness for Beginners",
+              "type": "Course",
+              "description": "An introductory course on mindfulness techniques for stress management."
+            }
+          ]
+        }
+      ]
+    },
+    "ENFJ": {
+        "code": "ENFJ",
+        "name": "Protagonist",
+        "description": "Charismatic, inspiring, and empathetic.",
+        "strengths": ["Charisma", "Inspiration", "Empathy", "Leadership"],
+        "weaknesses": ["Overly Idealistic", "Sensitive to Criticism", "Self-Sacrificing"],
+        "careerSuggestions": ["Teacher", "Counselor", "Social Worker"],
+        "communicationStyle": "Warm and engaging, often focusing on understanding and motivating others.",
+        "stressTriggers": ["Conflict", "Feeling unappreciated", "Inauthenticity"],
+        "recommendedGoals": [
+          {
+            "id": "enfj-1",
+            "title": "Set Boundaries",
+            "description": "Practice saying no to avoid burnout and prioritize self-care.",
+            "difficulty": "Medium",
+            "timeframe": "Short",
+            "relatedTrait": "Feeling",
+            "category": "Self-Care"
+          },
+          {
+            "id": "enfj-2",
+            "title": "Develop Objectivity",
+            "description": "Work on balancing empathy with practicality in decision-making.",
+            "difficulty": "Medium",
+            "timeframe": "Long",
+            "relatedTrait": "Judging",
+            "category": "Personal Growth"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Self-Care",
+            "exercises": [
+              {
+                "id": "ex-9",
+                "title": "Daily Reflection",
+                "description": "Reflect on daily experiences and emotions to foster self-awareness.",
+                "frequency": "Daily",
+                "duration": "10 minutes"
+              },
+              {
+                "id": "ex-10",
+                "title": "Meditation Practice",
+                "description": "Practice meditation to reduce stress and maintain mental clarity.",
+                "frequency": "Weekly",
+                "duration": "20 minutes"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-5",
+                "title": "Mindfulness for Emotional Well-being",
+                "type": "Course",
+                "description": "A course on using mindfulness techniques to enhance emotional health."
+              }
+            ]
+          }
+        ]
+      },
+      "ISTJ": {
+        "code": "ISTJ",
+        "name": "Logistician",
+        "description": "Practical, reliable, and structured.",
+        "strengths": ["Reliability", "Structure", "Practicality", "Attention to Detail"],
+        "weaknesses": ["Stubbornness", "Difficulty with Flexibility", "Insensitive at times"],
+        "careerSuggestions": ["Accountant", "Project Manager", "Engineer"],
+        "communicationStyle": "Clear and direct, often focused on facts and details.",
+        "stressTriggers": ["Disorganization", "Unclear instructions", "Unexpected changes"],
+        "recommendedGoals": [
+          {
+            "id": "istj-1",
+            "title": "Improve Flexibility",
+            "description": "Work on being open to unexpected changes and new ideas.",
+            "difficulty": "Hard",
+            "timeframe": "Long",
+            "relatedTrait": "Judging",
+            "category": "Adaptability"
+          },
+          {
+            "id": "istj-2",
+            "title": "Enhance Communication Skills",
+            "description": "Develop skills to express emotions and intentions clearly.",
+            "difficulty": "Medium",
+            "timeframe": "Medium",
+            "relatedTrait": "Introversion",
+            "category": "Personal Development"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Adaptability",
+            "exercises": [
+              {
+                "id": "ex-11",
+                "title": "Try a New Hobby",
+                "description": "Engage in a new activity outside of your comfort zone to increase adaptability.",
+                "frequency": "Monthly",
+                "duration": "2 hours"
+              },
+              {
+                "id": "ex-12",
+                "title": "Practice Open-Mindedness",
+                "description": "Spend time considering alternative perspectives and viewpoints.",
+                "frequency": "Weekly",
+                "duration": "30 minutes"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-6",
+                "title": "Growth Through Flexibility",
+                "type": "Book",
+                "description": "A guide to embracing change and developing a flexible mindset."
+              }
+            ]
+          }
+        ]
+      },
+      "ESFJ": {
+        "code": "ESFJ",
+        "name": "Consul",
+        "description": "Social, supportive, and organized.",
+        "strengths": ["Supportive", "Reliable", "Organized", "Sociable"],
+        "weaknesses": ["Overly Concerned with Social Status", "Reluctant to Change", "Can be Judgmental"],
+        "careerSuggestions": ["Nurse", "Teacher", "Human Resources Specialist"],
+        "communicationStyle": "Warm and friendly, often focused on harmony and building relationships.",
+        "stressTriggers": ["Conflict", "Criticism", "Unclear Expectations"],
+        "recommendedGoals": [
+          {
+            "id": "esfj-1",
+            "title": "Develop Flexibility",
+            "description": "Practice being open to change and adapting to new situations.",
+            "difficulty": "Medium",
+            "timeframe": "Medium",
+            "relatedTrait": "Sensing",
+            "category": "Adaptability"
+          },
+          {
+            "id": "esfj-2",
+            "title": "Enhance Conflict Management Skills",
+            "description": "Learn techniques to handle conflicts constructively.",
+            "difficulty": "Hard",
+            "timeframe": "Long",
+            "relatedTrait": "Feeling",
+            "category": "Communication"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Adaptability",
+            "exercises": [
+              {
+                "id": "ex-13",
+                "title": "Weekly Reflection on Change",
+                "description": "Reflect on changes and adapt positively to new circumstances.",
+                "frequency": "Weekly",
+                "duration": "15 minutes"
+              },
+              {
+                "id": "ex-14",
+                "title": "Mindful Conflict Resolution",
+                "description": "Practice calm and mindful approaches to resolving conflicts.",
+                "frequency": "Monthly",
+                "duration": "30 minutes"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-7",
+                "title": "Guide to Managing Change",
+                "type": "Book",
+                "description": "A comprehensive guide on how to embrace and manage change effectively."
+              }
+            ]
+          }
+        ]
+      },
+      "ESTJ": {
+        "code": "ESTJ",
+        "name": "Executive",
+        "description": "Efficient, realistic, and orderly.",
+        "strengths": ["Efficient", "Reliable", "Organized", "Hardworking"],
+        "weaknesses": ["Stubbornness", "Impatience", "Difficulty with Emotions"],
+        "careerSuggestions": ["Operations Manager", "Project Manager", "Military Officer"],
+        "communicationStyle": "Direct and focused on facts, often seeking clarity and efficiency.",
+        "stressTriggers": ["Lack of Structure", "Inefficiency", "Emotional Situations"],
+        "recommendedGoals": [
+          {
+            "id": "estj-1",
+            "title": "Improve Patience",
+            "description": "Practice patience with others who may have different working styles.",
+            "difficulty": "Hard",
+            "timeframe": "Medium",
+            "relatedTrait": "Judging",
+            "category": "Personal Development"
+          },
+          {
+            "id": "estj-2",
+            "title": "Develop Emotional Intelligence",
+            "description": "Learn techniques to better understand and manage emotions.",
+            "difficulty": "Medium",
+            "timeframe": "Long",
+            "relatedTrait": "Thinking",
+            "category": "Interpersonal Skills"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Emotional Intelligence",
+            "exercises": [
+              {
+                "id": "ex-15",
+                "title": "Daily Emotional Awareness",
+                "description": "Reflect on your emotions and identify what caused them.",
+                "frequency": "Daily",
+                "duration": "10 minutes"
+              },
+              {
+                "id": "ex-16",
+                "title": "Empathy Practice",
+                "description": "Engage in activities that promote understanding of others' perspectives.",
+                "frequency": "Weekly",
+                "duration": "20 minutes"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-8",
+                "title": "Emotional Intelligence in Leadership",
+                "type": "Course",
+                "description": "A course designed to improve emotional intelligence in professional settings."
+              }
+            ]
+          }
+        ]
+      },
+      "INFP": {
+        "code": "INFP",
+        "name": "Mediator",
+        "description": "Creative, idealistic, and empathetic.",
+        "strengths": ["Empathetic", "Creative", "Loyal", "Open-Minded"],
+        "weaknesses": ["Overly Idealistic", "Prone to Self-Isolation", "Emotionally Vulnerable"],
+        "careerSuggestions": ["Writer", "Counselor", "Social Worker"],
+        "communicationStyle": "Reflective and compassionate, often focused on harmony and understanding.",
+        "stressTriggers": ["Conflict", "Inauthenticity", "Criticism of Values"],
+        "recommendedGoals": [
+          {
+            "id": "infp-1",
+            "title": "Build Resilience",
+            "description": "Work on handling criticism and challenging situations constructively.",
+            "difficulty": "Medium",
+            "timeframe": "Medium",
+            "relatedTrait": "Feeling",
+            "category": "Personal Growth"
+          },
+          {
+            "id": "infp-2",
+            "title": "Increase Social Engagement",
+            "description": "Practice opening up to others and forming meaningful connections.",
+            "difficulty": "Hard",
+            "timeframe": "Long",
+            "relatedTrait": "Introversion",
+            "category": "Interpersonal Skills"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Resilience",
+            "exercises": [
+              {
+                "id": "ex-17",
+                "title": "Mindfulness Meditation",
+                "description": "Engage in mindfulness practices to stay grounded.",
+                "frequency": "Daily",
+                "duration": "10 minutes"
+              },
+              {
+                "id": "ex-18",
+                "title": "Journaling on Strengths",
+                "description": "Reflect on and document personal strengths weekly.",
+                "frequency": "Weekly",
+                "duration": "20 minutes"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-9",
+                "title": "Guide to Emotional Resilience",
+                "type": "Book",
+                "description": "A book on building resilience and emotional intelligence."
+              }
+            ]
+          }
+        ]
+      },
+      "ISFP": {
+        "code": "ISFP",
+        "name": "Adventurer",
+        "description": "Artistic, spontaneous, and gentle.",
+        "strengths": ["Artistic", "Sensitive", "Spontaneous", "Kind"],
+        "weaknesses": ["Easily Stressed", "Dislike of Structure", "Tendency to Avoid Conflict"],
+        "careerSuggestions": ["Artist", "Photographer", "Physical Therapist"],
+        "communicationStyle": "Gentle and adaptable, often using nonverbal cues and showing empathy.",
+        "stressTriggers": ["Excessive Structure", "Conflict", "Routine Tasks"],
+        "recommendedGoals": [
+          {
+            "id": "isfp-1",
+            "title": "Practice Assertiveness",
+            "description": "Work on expressing needs and boundaries confidently.",
+            "difficulty": "Medium",
+            "timeframe": "Medium",
+            "relatedTrait": "Introversion",
+            "category": "Interpersonal Skills"
+          },
+          {
+            "id": "isfp-2",
+            "title": "Enhance Time Management Skills",
+            "description": "Develop routines to stay organized without feeling constrained.",
+            "difficulty": "Medium",
+            "timeframe": "Long",
+            "relatedTrait": "Sensing",
+            "category": "Productivity"
+          }
+        ],
+        "growthAreas": [
+          {
+            "trait": "Assertiveness",
+            "exercises": [
+              {
+                "id": "ex-19",
+                "title": "Daily Self-Assertion Practice",
+                "description": "Practice small acts of assertiveness daily.",
+                "frequency": "Daily",
+                "duration": "5 minutes"
+              },
+              {
+                "id": "ex-20",
+                "title": "Boundary-Setting Workshop",
+                "description": "Attend a workshop focused on setting healthy boundaries.",
+                "frequency": "Once",
+                "duration": "2 hours"
+              }
+            ],
+            "resources": [
+              {
+                "id": "res-10",
+                "title": "Assertiveness Training Manual",
+                "type": "Course",
+                "description": "A structured course to develop assertiveness skills."
+              }
+            ]
+          }
+        ]
+      }
+}
+
+  
+  
+  
+  
+  

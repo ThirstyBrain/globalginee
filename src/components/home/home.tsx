@@ -7,6 +7,7 @@ import {
   Grid,
   Paper,
   Box,
+  
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Link } from "react-router-dom";
@@ -32,6 +33,12 @@ const useStyles = makeStyles({
     textAlign: "center",
     backgroundColor: "#f1f1f1",
   },
+  card: {
+    textDecoration: "none",
+    "&:hover": { boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" },
+  },
+  content: { textAlign: "center" },
+  actions: { justifyContent: "center" },
 });
 
 const LandingPage: React.FC = () => {
@@ -47,7 +54,7 @@ const LandingPage: React.FC = () => {
           {/* <Button color="inherit">Login</Button>
           <Button color="inherit">Sign Up</Button> */}
         </Toolbar>
-      </AppBar> 
+      </AppBar>
       {/* <Box className={classes.hero}>
         <Typography variant="h2">Welcome to Global Ginee</Typography>
         <Typography variant="h5">
@@ -62,6 +69,21 @@ const LandingPage: React.FC = () => {
                 <Typography variant="h6">IFSC Code Lookup</Typography>
                 <Typography>Find IFSC codes for all banks in India.</Typography>
               </Paper>
+              {/* <Card>
+                <CardContent className={classes.content}>
+                  <Typography variant="h6" gutterBottom>
+                    IFSC Code Lookup
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary">
+                    Find IFSC codes for all banks in India.
+                  </Typography>
+                </CardContent>
+                <CardActions className={classes.actions}>
+                  <Button size="small" color="primary">
+                    Learn More
+                  </Button>
+                </CardActions>
+              </Card> */}
             </Link>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -93,24 +115,24 @@ const LandingPage: React.FC = () => {
           <Grid item xs={12} sm={4}>
             <Link to="/tictactoe" className={classes.feature}>
               <Paper className={classes.feature}>
-              <Typography variant="h6">Tic Tac Toe</Typography>
-              <Typography>Play a fun game of Tic Tac Toe.</Typography>
+                <Typography variant="h6">Tic Tac Toe</Typography>
+                <Typography>Play a fun game of Tic Tac Toe.</Typography>
               </Paper>
             </Link>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Link to="/resumebuilder" className={classes.feature}>
               <Paper className={classes.feature}>
-              <Typography variant="h6">Resume Builder</Typography>
-              <Typography>Create and download your resume.</Typography>
+                <Typography variant="h6">Resume Builder</Typography>
+                <Typography>Create and download your resume.</Typography>
               </Paper>
             </Link>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Link to="/qrcode" className={classes.feature}>
               <Paper className={classes.feature}>
-              <Typography variant="h6">QR Code Generator</Typography>
-              <Typography>Generate and download QR codes.</Typography>
+                <Typography variant="h6">QR Code Generator</Typography>
+                <Typography>Generate and download QR codes.</Typography>
               </Paper>
             </Link>
           </Grid>
@@ -122,8 +144,24 @@ const LandingPage: React.FC = () => {
               </Paper>
             </Link>
           </Grid>
-
-
+          <Grid item xs={12} sm={4}>
+            <Link to="/personapath" className={classes.feature}>
+              <Paper className={classes.feature}>
+                <Typography variant="h6">Persona Path</Typography>
+                <Typography>Evaluate your persona.</Typography>
+              </Paper>
+            </Link>
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Link to="/bloomcycle" className={classes.feature}>
+              <Paper className={classes.feature}>
+                <Typography variant="h6">Bloom Cycle</Typography>
+                <Typography>
+                  Track your menstrual cycle, fertility, and more.
+                </Typography>
+              </Paper>
+            </Link>
+          </Grid>
         </Grid>
       </Container>
       <Box className={classes.footer}>
