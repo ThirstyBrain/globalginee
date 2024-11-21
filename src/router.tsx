@@ -19,6 +19,7 @@ import BloomCycle from "./components/bloom-cycle/bloom-cycle";
 import HomePage from "./components/bloom-cycle/pages/home-page";
 import TrackerPage from "./components/bloom-cycle/pages/tracker-page";
 import OvulationCalcApp from "./components/ovulation-calculator/ovulation-calc-app";
+import BMICalculator from "./components/bmi-calculator/bmi-calculator";
 
 export const router = createHashRouter([
     {
@@ -108,6 +109,11 @@ export const router = createHashRouter([
     {
         path: '/ovulationcalculator',
         element: <OvulationCalcApp />,
+        errorElement:<Error/>
+    },
+    {
+        path: '/bmicalculator',
+        element: <BMICalculator />,
         errorElement:<Error/>
     },
 ]);

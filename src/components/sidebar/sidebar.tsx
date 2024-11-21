@@ -94,6 +94,11 @@ const navLinks = [
     name: "Ovulation Calculator",
     icon: bloomcycleIcon,
     link: "/ovulationcalculator",
+  }, 
+  {
+    name: "BMI Calculator",
+    icon: bloomcycleIcon,
+    link: "/bmicalculator",
   }
 ];
 
