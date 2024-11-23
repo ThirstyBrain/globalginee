@@ -1,20 +1,20 @@
 import { styled } from "../../../stitches.config";
 
-export const CaloricNeedsComponent = styled("section", {
-  gridArea: "cloricInfoSection",
+export const IdealWeightRangeComponent = styled("section", {
+  gridArea: "IdealWeightInfoSection",
   padding: "0vw 0vw",
   paddingLeft: "0vw",
   paddingTop: 0,
   alignSelf: "end",
 
-  ".cloric-info-container": {
-    maxHeight: "350px",
+  ".IdealWeight-info-container": {
+    height: "350px",
     flexUtil: {
       fFlow: "row",
     },
     gap: "15px",
 
-    ".cloric-info": {
+    ".IdealWeight-info": {
       width: "100%",
       background: `transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1065%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c119 C 57.6%2c151.2 172.8%2c279.6 288%2c280 C 403.2%2c280.4 460.8%2c128.6 576%2c121 C 691.2%2c113.4 748.8%2c245 864%2c242 C 979.2%2c239 1036.8%2c102 1152%2c106 C 1267.2%2c110 1382.4%2c230.8 1440%2c262L1440 560L0 560z' fill='rgba(26%2c 117%2c 159%2c 0.22)'%3e%3c/path%3e%3cpath d='M 0%2c434 C 48%2c415 144%2c323 240%2c339 C 336%2c355 384%2c515.2 480%2c514 C 576%2c512.8 624%2c339.6 720%2c333 C 816%2c326.4 864%2c477 960%2c481 C 1056%2c485 1104%2c340.2 1200%2c353 C 1296%2c365.8 1392%2c506.6 1440%2c545L1440 560L0 560z' fill='rgba(52%2c 160%2c 164%2c 0.17)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1065'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e") no-repeat`,
       backgroundSize: "cover",

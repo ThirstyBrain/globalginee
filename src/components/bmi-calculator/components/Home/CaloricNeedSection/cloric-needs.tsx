@@ -2,7 +2,6 @@ import { useContext, useState, useEffect } from "react";
 import { heightContext } from "../../../hooks/heightHook";
 import { weightContext } from "../../../hooks/weightHook";
 import { CaloricNeedsComponent } from "./CaloricNeedsStyles";
-import { WaterBottleImg } from "../../../svgs/WaterBottleImg";
 
 export function CaloricNeeds() {
   const [weight] = useContext(weightContext);
@@ -24,12 +23,9 @@ export function CaloricNeeds() {
     <CaloricNeedsComponent>
         <div className="cloric-info-container">
           <div className="cloric-info">
-            <h2>Your Daily Caloric Needs</h2>
-            <h2> For maintenance, you need approximately</h2>
-            <h1> <strong>{caloricNeeds.toFixed(0)} kcal</strong> per day.</h1>
-            <WaterBottleImg />
-            <h2>For weight loss, aim for{" "}</h2>
-            <h2><strong>{(caloricNeeds - 500).toFixed(0)} kcal</strong> per day.</h2>
+            <h2>Your Daily Caloric Needs.For maintenance, you need approximately</h2>
+            <h2> <strong>{caloricNeeds.toFixed(0)} kcal</strong> per day.</h2>
+            <h2>For weight loss, aim for{(caloricNeeds - 500).toFixed(0)} kcal per day.</h2>
           </div>
         </div>
     </CaloricNeedsComponent>

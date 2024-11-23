@@ -153,11 +153,21 @@ const LandingPage: React.FC = () => {
             </Link>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Link to="/bloomcycle" className={classes.feature}>
+            <Link to="/ovulationcalculator" className={classes.feature}>
               <Paper className={classes.feature}>
-                <Typography variant="h6">Bloom Cycle</Typography>
+                <Typography variant="h6">Ovulation Calculator</Typography>
                 <Typography>
                   Track your menstrual cycle, fertility, and more.
+                </Typography>
+              </Paper>
+            </Link>
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Link to="/bmicalculator" className={classes.feature}>
+              <Paper className={classes.feature}>
+                <Typography variant="h6">BMI Calculator</Typography>
+                <Typography>
+                  Track your BMI
                 </Typography>
               </Paper>
             </Link>
